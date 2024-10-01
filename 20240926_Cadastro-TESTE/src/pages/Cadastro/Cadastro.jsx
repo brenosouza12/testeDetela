@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Cadastro.css";
+import Navbar from "../../components/Navbar";
 
 const Cadastro = () => {
     const [formData, setFormData] = useState({
@@ -26,6 +27,8 @@ const Cadastro = () => {
 
     return (
         <div className="cadastro-container">
+
+            <Navbar/>
             <h2>Assine e acompanhe sua assinatura em um só lugar!</h2>
             <form onSubmit={handleSubmit} className="cadastro-form">
                 <div className="cadastro-group">

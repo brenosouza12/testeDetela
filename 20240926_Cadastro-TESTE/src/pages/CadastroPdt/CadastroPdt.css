@@ -1,22 +1,23 @@
-*{
-  border: 1px solid red;
-  margin: 1px;
+/* Estilo geral para todos os elementos */
+* {
+  box-sizing: border-box; /* Inclui bordas e padding nas medidas de largura e altura */
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 2rem; */
+  padding: 2rem; /* Espaçamento interno na container */
 }
 
 .admin-section {
   text-align: center;
+  padding-bottom: 2rem; /* Espaço abaixo da seção do admin */
+  padding-top: 4rem;
 }
 
 .admin-logo {
   height: 100px;
-  /* margin-bottom: 1rem; */
 }
 
 .content-section {
@@ -25,63 +26,71 @@
   width: 100%;
   max-width: 1000px;
   border-radius: 10px;
+  padding: 2rem; /* Espaçamento interno na seção de conteúdo */
 }
 
 .image-section {
-  width: 100%;
-  /* height: 90%; */
-  /* height: 400px; */
-  border-radius: 10px;
+  flex: 1; /* Permite que a seção da imagem ocupe espaço disponível */
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
   text-align: center;
   background-image: url("./images/planta.jpg");
+  background-size: cover; /* Preenche o espaço da imagem */
+  background-position: center; /* Centraliza a imagem de fundo */
+  height: 400px; /* Altura fixa para a imagem */
+  margin-right: 2rem; /* Espaçamento à direita da seção de imagem */
+  color: white; /* Altera a cor do texto para branco para maior contraste */
+  padding: 1.9rem; /* Adiciona algum espaçamento interno */
+  padding-bottom: 2rem;
 }
 
 .form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  /* padding: 2rem; */
+  padding: 2rem; /* Adiciona espaçamento interno */
+  padding-top: 2rem; /* Espaço no topo */
+  padding-bottom: 2rem; /* Espaço na parte inferior */
 }
 
 .form-container {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem; /* Espaçamento entre os grupos de formulário */
 }
 
 .form-group {
-  /* margin-bottom: 1.8rem; */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
-
 }
 
 .form-group label {
   font-size: 1.2rem;
-  /* margin-bottom: 0.9rem; */
 }
 
 .form-group input {
-  /* padding: 0.9rem; */
-  font-size: 0.9rem;
+  font-size: 1rem; /* Ajuste o tamanho da fonte dos inputs */
+  padding: 0.75rem; /* Espaçamento interno nos inputs */
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 10px;
 }
 
 .submit-button {
-  /* padding: 0.75rem 1.5rem; */
   background-color: #4CAF50;
   color: white;
   font-size: 1.2rem;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  padding: 0.75rem 1.5rem; /* Padding para o botão */
 }
 
 .submit-button:hover {
   background-color: #45a049;
 }
-
