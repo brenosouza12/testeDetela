@@ -1,0 +1,87 @@
+*{
+  border: 1px solid red;
+  margin: 1px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 2rem; */
+}
+
+.admin-section {
+  text-align: center;
+}
+
+.admin-logo {
+  height: 100px;
+  /* margin-bottom: 1rem; */
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 10px;
+}
+
+.image-section {
+  width: 100%;
+  /* height: 90%; */
+  /* height: 400px; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url("./images/planta.jpg");
+}
+
+.form-section {
+  width: 100%;
+  /* padding: 2rem; */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  /* margin-bottom: 1.8rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.form-group label {
+  font-size: 1.2rem;
+  /* margin-bottom: 0.9rem; */
+}
+
+.form-group input {
+  /* padding: 0.9rem; */
+  font-size: 0.9rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.submit-button {
+  /* padding: 0.75rem 1.5rem; */
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+

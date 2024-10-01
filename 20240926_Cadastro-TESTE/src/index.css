@@ -1,0 +1,40 @@
+/* Reset básico para garantir que os estilos sejam consistentes */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  max-width: 1280px; /* Define a largura máxima do contêiner principal */
+  margin: 0 auto; /* Centraliza o contêiner */
+  padding: 2rem;
+  text-align: center; /* Centraliza o texto no contêiner */
+}
+
+/* Estilo específico para o container do cadastro */
+.container {
+  display: flex;
+  justify-content: space-between; /* Distribui espaço entre os elementos */
+  padding: 2em; /* Aumenta o espaçamento ao redor da div do container */
+}
+
+.left-column {
+  flex: 1; /* Coluna da esquerda ocupa 1 parte */
+  margin-right: 2em; /* Aumenta a margem à direita */
+}
+
+.right-column {
+  flex: 2; /* Coluna da direita ocupa 2 partes */
+  display: flex;
+  flex-direction: column; /* Alinha os elementos verticalmente */
+}
+
+.admin-info {
+  margin-bottom: 30px; /* Aumenta o espaço abaixo das informações do admin */
+}

@@ -1,0 +1,81 @@
+.navbar {
+    position: fixed; /* Fixa a navbar no topo */
+    top: 0; /* Garante que esteja na parte mais alta da página */
+    left: 0; /* Alinha a navbar à esquerda */
+    width: 100%; /* Ocupa 100% da largura */
+    background-color: #213547; /* Mantém a cor de fundo */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
+  }
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #dcdcdc;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-search input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.navbar-search button {
+    background-color: #fff;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-icons span {
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.cadastro-container {
+    background-color: #f0f5ff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure form takes full width */
+}
+
+.cadastro-group {
+    display: flex;
+    flex-direction: column; /* Change to column for vertical alignment */
+    margin-bottom: 15px;
+    width: 100%; /* Ensure the group takes full width */
+}
+
+.cadastro-group label {
+    color: #4f4f4f;
+    margin-bottom: 5px;
+    text-align: left; /* Align label text to the left */
+}
+
+.cadastro-group input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    font-size: 0.875rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-button {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.cadastro-button:hover {
+    background-color: #6f8979;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.875rem;
+}
+
+p a {
+    color: #819c8b;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    /* Seus estilos responsivos */
+}
